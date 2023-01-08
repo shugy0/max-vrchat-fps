@@ -9,7 +9,7 @@ If you are looking for hardware recommendations, I recommend checking out [Tuppe
 - Set your headset refresh rate to 90hz
 - Set your headset resolution to 80%
 - Use the avatar hider in the mini menu settings (e.g. 40m and max 20)
-- Set Multisample Anti-Aliasing to 2x or none in performance settings
+- Set Multisample Anti-Aliasing to 2x in performance settings
 - Turn off avatar shaders in safety settings
 
 If you want more detail or information on where these settings are, please see below! Key parts are bolded.
@@ -35,12 +35,12 @@ While you can block very poor or poor avatars with this setting, **I recommend t
 ### Advanced Graphics Settings
 Max Performance:
 - Graphics Quality: Low
-- **Multisample Anti-Aliasing: Disabled**
+- **Multisample Anti-Aliasing: 2x**
 - Particle Limiter: ✅
 - Forced Camera Near Distance: ❌
 - Mirror Resolution: Quarter Resolution
 
-**Turning MSAA off completely can have a big impact on quality, so I recommend a 2x minimum.**
+**Turning MSAA off completely can have a big impact on quality, as well as break some worlds/shaders, so I recommend a 2x minimum.**
 
 ## Avatar Hider Settings
 You can only access these settings from the mini menu.
@@ -54,6 +54,18 @@ You can only access these settings from the mini menu.
 ![](images/settings_safety_1.png)
 
 These are the safety settings that I use for all trust levels. A decent amount of GPU processing is spent on shaders, so **I recommend turning off shaders for non-friends of all trust levels**. If you have a large number of friends in an instance, you can also turn off friends' shaders to gain FPS. This will make some avatars look weird (like making them entirely one color), but you'll be able to generally see what avatars look like, and you can then decide if you want to show their avatar or not. Manually showing someone's avatar overrides this setting, regardless of trust level.
+
+## Game Launch Settings
+
+![](images/launch_options_1.png)
+
+![](images/launch_options_2.png)
+
+While in VR, VRChat also runs in a desktop window on your computer. Making this window smaller can increase headset FPS. To do this, open VRChat's properties on Steam by right-clicking on the game in your library, and add the following to the Launch Options:
+
+```-screen-width 640 -screen-height 480```
+
+Please note that the in-game Stream Camera uses the desktop window for output. If you are streaming/recording, you will want to leave this alone, or maximize the window before streaming/recording.
 
 ## Headset Settings
 
