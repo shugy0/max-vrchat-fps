@@ -50,7 +50,7 @@ Max Performance:
 
 ### Additional Settings
 
-**Turning off nameplates in crowded instances can increase your FPS.** The quickest way to access this setting is the mini menu Settings.
+**Turning off nameplates in crowded instances can increase your FPS.** The quickest way to access this setting is the mini menu Settings tab.
 
 ## In-Game Safety Settings
 
