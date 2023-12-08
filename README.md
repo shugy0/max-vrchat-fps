@@ -1,24 +1,27 @@
 # How to Maximize Your FPS in VRChat
 
-This is a guide on what software settings you can change - both in and out of VRChat - in order to get the most performance possible. Please note that performance gains are made by sacrificing some quality, so I encourage you to change your settings around and find a balance that you're happy with. While this guide has a PCVR focus, you should be able to apply the non-VR changes and increase your FPS in desktop mode (or on Quest) as well.
+This is a guide that explains what software settings you can change - both in and out of VRChat - in order to get the most performance or FPS possible. Please note that performance gains are made by sacrificing some quality, so I encourage you to try changing settings and find a balance that you're happy with. While this guide has a PCVR focus, you should be able to apply the non-VR changes and increase your FPS in desktop mode (or on Android) as well.
 
-If you are looking for hardware recommendations, I recommend checking out [Tupper's guide](https://tupper.notion.site/The-Current-Best-PC-For-VRChat-0636cbf57062499e80f02554afda2be4). It's very good, and goes in-depth about what hardware specs you want to look for. For hardware recommendations on a budget, I recommend asking [/r/buildmeapc](https://reddit.com/r/buildmeapc/).
+If you are looking for computer hardware recommendations, I recommend checking out [Tupper's guide](https://tupper.notion.site/The-Current-Best-PC-For-VRChat-0636cbf57062499e80f02554afda2be4). It's very good, and goes in-depth about what hardware specs you want to focus on to maximize performance. For hardware recommendations on a budget, I recommend asking [/r/buildmeapc](https://reddit.com/r/buildmeapc/).
 
 ## Summary
-**This guide might be longer than some people want, so here is a brief summary of the changes you can make that have the biggest impact on FPS:**
+**This is a detailed guide, so here is a brief summary of the changes you can make that have the biggest impact on FPS:**
 - Set your headset refresh rate to 90hz
 - Set your headset resolution to 80%
-- Use the avatar hider in the mini menu settings (e.g. 40m and max 20)
-- Set Multisample Anti-Aliasing to 2x in performance settings
-- Turn off avatar shaders in safety settings
+- Turn on avatar culling (e.g. 20m and max 15)
+- Set Anti-Aliasing to x2
+- Turn off avatar shaders
+- Turn off nameplates in crowded instances
 
-If you want more detail or information on where these settings are, please see below! Key parts are bolded.
+If you want more details or information on where these settings are located, please keep reading! Key parts are bolded.
 
-## In-Game Performance Settings
+## In-Game Graphics and Avatar Settings
 
-![](images/settings_perf_1.png)
+![](images/settings_graphics_1.png)
 
-![](images/settings_perf_2.png)
+![](images/settings_graphics_2.png)
+
+![](images/settings_avatars_1.png)
 
 ### Block Poorly Optimized Avatars
 While you can block very poor or poor avatars with this setting, **I recommend turning off avatar shaders instead (see [Safety Settings](#in-game-safety-settings))**. This allows you to see a general idea of what an avatar looks like, rather than seeing the "Perf Blocked" robot avatar.
@@ -27,27 +30,27 @@ While you can block very poor or poor avatars with this setting, **I recommend t
 **This won't have a direct effect on your FPS**, but larger avatars tend to be worse quality, so limiting size can indirectly increase your FPS. Rather than changing this, I again recommend turning off avatar shaders instead.
 
 ### Dynamic Bones
-**Make sure "Convert To PhysBone" is checked.** This will automatically convert Dynamic Bones on old avatars to PhysBones, which is VRChat's optimized implementation.
+**Make sure "Convert Dynamic Bones To PhysBones" is On.** This will automatically convert Dynamic Bones on old avatars to PhysBones, which is VRChat's optimized implementation.
 
-### Managed Cached Data
-**This won't have a direct effect on your FPS**, and clearing it will make you re-download avatars/worlds you had cached, so I recommend leaving it alone. VRChat automatically manages the cache.
-
-### Advanced Graphics Settings
+### Graphics Settings
 Max Performance:
-- Graphics Quality: Low
-- **Multisample Anti-Aliasing: 2x**
-- Particle Limiter: ✅
-- Forced Camera Near Distance: ❌
-- Mirror Resolution: Quarter Resolution
+- **Anti-Aliasing: x2**
+- Mirror Resolution: Quarter
+- Shadow Quality: Low
+- LOD Quality: Low
+- Particle Physics Quality: Low
+- Particle Limiter: On
+- Pixel Light Count: Low
 
-**Turning MSAA off completely can have a big impact on quality, as well as break some worlds/shaders, so I recommend a 2x minimum.**
+**Turning Anti-Aliasing off can have a large negative impact on quality, as well as break some worlds/shaders, so I recommend an x2 minimum.** Addtionaly, it's possible to change Pixel Light Count to Off, but this can also have a large negative impact on quality, so I recommend Low.
 
-## Avatar Hider Settings
-You can only access these settings from the mini menu.
+### Avatar Culling Settings
 
-![](images/settings_perf_3.png)
+**By lowering the avatar culling distance or number of avatars you show, you'll increase your FPS**, but you'll see more diamond avatar replacements.
 
-**By lowering the distance or number of avatars you show, you'll increase your FPS**, but you'll see more diamond avatar replacements. The settings I currently use are 40m and 20.
+### Additional Settings
+
+**Turning off nameplates in crowded instances can increase your FPS.** The quickest way to access this setting is the mini menu Settings.
 
 ## In-Game Safety Settings
 
@@ -90,7 +93,7 @@ These aren't directly related to VRChat/VR, but they can increase your performan
 
 Thanks for reading! I hope my guide was able to help you increase your FPS in VRChat. If you have any comments/questions/etc, please feel free to [open an issue](https://github.com/shugy0/max-vrchat-fps/issues).
 
-The world in the background of the screenshots is [Usedom by Bigby](https://vrchat.com/home/world/wrld_fa5eaf88-8df8-4afa-96ce-01d19a924554).
+The world in the background of the screenshots is [Moment by Alia-](https://vrchat.com/home/world/wrld_f3e56230-2bd9-4688-86eb-e24fa3e4c595).
 
 DISCLAIMER: The information in this guide is provided for educational purposes only. The author and publisher are not responsible for any damage that may result from following the information in this guide. Use the information in this guide at your own risk.
 
