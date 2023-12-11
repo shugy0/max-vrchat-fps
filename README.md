@@ -1,8 +1,8 @@
 # How to Maximize Your FPS in VRChat
 
-This is a guide that explains what software settings you can change - both in and out of VRChat - in order to get the most performance or FPS possible. Please note that performance gains are made by sacrificing some quality, so I encourage you to try changing settings and find a balance that you're happy with. While this guide has a PCVR focus, you should be able to apply the non-VR changes and increase your FPS in desktop mode (or on Android) as well.
+This is a guide that explains what software settings you can change - both in and out of VRChat - in order to get the most performance or FPS possible. Please note that performance gains are made by sacrificing some quality, so I encourage you to try changing settings and find a balance that you're happy with. While this guide has a PCVR focus, you should be able to apply the non-VR changes and increase your FPS in desktop mode (or on Android/standalone Quest) as well.
 
-If you are looking for computer hardware recommendations, I recommend checking out [Tupper's guide](https://tupper.notion.site/The-Current-Best-PC-For-VRChat-0636cbf57062499e80f02554afda2be4). It's very good, and goes in-depth about what hardware specs you want to focus on to maximize performance. For hardware recommendations on a budget, I recommend asking [/r/buildmeapc](https://reddit.com/r/buildmeapc/).
+If you are looking for computer hardware recommendations, I recommend checking out [Tupper's guide](https://tupper.notion.site/The-Current-Best-PC-For-VRChat-0636cbf57062499e80f02554afda2be4). It's very good, and explains what hardware specs you want to focus on to maximize performance. For hardware recommendations on a budget, I recommend asking [/r/buildmeapc](https://reddit.com/r/buildmeapc/).
 
 ## Summary
 **This is a detailed guide, so here is a brief summary of the changes you can make that have the biggest impact on FPS:**
@@ -58,7 +58,7 @@ Max Performance:
 
 These are the safety settings that I use for all trust levels. A decent amount of GPU processing is spent on shaders, so **I recommend turning off shaders for non-friends of all trust levels**. If you have a large number of friends in an instance, you can also turn off friends' shaders to gain FPS. This will make some avatars look weird (like making them entirely one color), but you'll be able to generally see what avatars look like, and you can then decide if you want to show their avatar or not. Manually showing someone's avatar overrides this setting, regardless of trust level.
 
-## Game Launch Settings
+## Steam Launch Options
 
 ![](images/launch_options_1.png)
 
@@ -72,7 +72,7 @@ Please note that the in-game Stream Camera uses the desktop window for output. I
 
 ## Headset Settings
 
-I only have a Valve Index so I can't speak for all headsets, but every headset *should* have a settings menu where you can adjust refresh rate and render resolution. To access the SteamVR settings, make sure your headset is plugged in and turned on, then click the hamburger menu in the top left corner of the SteamVR window.
+Every headset *should* have a settings menu where you can adjust refresh rate and render resolution. For SteamVR headsets, make sure your headset is plugged in and turned on, then click the hamburger menu in the top left corner of the SteamVR window.
 
 ![](images/steamvr_1.png)
 
@@ -80,7 +80,15 @@ I only have a Valve Index so I can't speak for all headsets, but every headset *
 
 **The lower the render resolution, the higher your FPS.** In my experience, you can lower this to 80-90% and not be able to tell the difference in quality at all, while increasing your FPS.
 
-Additionally, **lowering your refresh rate can also increase your performance**, but the lower refresh rate can be very noticeable. I don't recommend going lower than 90hz.
+**Lowering your refresh rate can also increase your performance**, but the lower refresh rate can be very noticeable. I don't recommend going lower than 90hz.
+
+## Quest Link Apps
+
+If you have a Quest headset that you connect to your computer in order to play PCVR games, there are several apps available to you. People report different levels of performance with all of these, so I recommend trying them out and seeing which works best for you. Please note that these apps can require additional setup/hardware and are recommended for advanced users.
+
+- [Virtual Desktop](https://www.meta.com/experiences/2017050365004772/) ($19.99): Widely considered to provide the best performance, but not free.
+- [Steam Link](https://www.meta.com/experiences/5841245619310585/) (Free): Valve's official link app.
+- [ALVR](https://github.com/alvr-org/ALVR) (Free, FOSS): Free and open source alternative.
 
 ## Other Tips
 
@@ -95,6 +103,6 @@ Thanks for reading! I hope my guide was able to help you increase your FPS in VR
 
 The world in the background of the screenshots is [Moment by Alia-](https://vrchat.com/home/world/wrld_f3e56230-2bd9-4688-86eb-e24fa3e4c595).
 
-DISCLAIMER: The information in this guide is provided for educational purposes only. The author and publisher are not responsible for any damage that may result from following the information in this guide. Use the information in this guide at your own risk.
+DISCLAIMER: This guide is an independent publication and has not been authorized, sponsored, or otherwise approved by any of the companies or entities mentioned within. References to any specific game, software, hardware, or company are for informational purposes only and do not imply endorsement or affiliation. The information outlined in this guide is based on personal experience and research and should be applied at your own discretion. The authors and publisher of this guide are not responsible for any outcomes that may arise from the application of the information provided.
 
 LICENSE: https://creativecommons.org/licenses/by/4.0/
