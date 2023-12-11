@@ -113,7 +113,7 @@ There are some ways.
 
 ### Optimization tips for Oculus Rift platform headset specific
 
-As explained in Quest section, use OculusKiller.
+As explained in Quest section but use OculusKiller only.
 
 ### Optimization tips for every headsets for SteamVR
 
