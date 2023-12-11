@@ -9,7 +9,7 @@ For hardware recommendations on a budget, I recommend asking [/r/buildmeapc](htt
 Some few things you need to keep in mind when building PC for VRChat specifically:
 
 - VRChat specifically LOVES AMD 3D V-Cache CPUs. Buying Ryzen 7 5600X3D, Ryzen 7 5800X3D, Ryzen 7 7800X3D or Ryzen 9 7950X3D is strongly recommended. If your budget allows buying those CPUs they are no brainer. If your budget does not allow any of those, use 2nd tip.
-- VRChat is a CPU heavy game. Prioritize strong single thread performance over strong cores if you can. For example a Ryzen 5 5600X (6 core) is a better buy than a Ryzen 7 3700X (8 core) due to better IPC and single thread performance.
+- VRChat is a CPU heavy game. Prioritize strong single thread performance over multi cores if you can. For example a Ryzen 5 5600X (6 core) is a better buy than a Ryzen 7 3700X (8 core) due to better IPC and single thread performance.
 - To ensure comfort, VR games are better when you balance frames and resolution to minimize motion sickness. Running at high resolution will require a lot of VRAM and it is recommended to get at least 8GB VRAM for budget builds and combine with OpenVR Dynamic Resolution (guide below under advanced SteamVR tips).
 
 Paste them when you need to ask for help.
